@@ -84,7 +84,7 @@ footer{
     filter: invert(100%) sepia(79%) saturate(1%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 
-#h2Section{
+.h2Section{
     color: #013B48;
     text-align: center;
     margin-top: 5%;

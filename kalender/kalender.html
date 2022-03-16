@@ -22,12 +22,43 @@
                 <a href="kalender/kalender.html">Kalender</a>
             </nav>
     </header>
+    <section>
+        <h1 id="h1Kalender">Kalender</h1>
+        <div class="slideShow">
+            <i id="arrowLeft" class="fas fa-angle-left arrow" onclick="previousImage()"></i>
+            <img id="image0" src="../assets/img/april.jpg" alt="April" class="calenderImage imageActive">
+            <img id="image1" src="../assets/img/may.jpg" alt="Maj" class="calenderImage">
+            <img id="image2" src="../assets/img/juni.jpg" alt="Juni" class="calenderImage">
+            <img id="image3" src="../assets/img/juli.jpg" alt="Juli" class="calenderImage">
+            <img id="image4" src="../assets/img/august.jpg" alt="August" class="calenderImage">
+            <i id="arrowRight" class="fas fa-angle-right arrow" onclick="nextImage()"></i>
+        </div>
+    </section>
+    <section>
+        <h2 class="h2Section">Kommende events</h2>
+        <section class="eventSections">
+            <h3>1. April</h3>
+            <p>Live musik i Olufs gård</p>
+        </section>
+        <section class="eventSections">
+            <h3>30. April</h3>
+            <p>Lys festival</p>
+        </section>
+        <section class="eventSections">
+            <h3>7. Maj</h3>
+            <p>Open mic, teaterbygningen</p>
+        </section>
+    </section>
+        
 
+    
+      
 
     <footer>
         <a href="mailto:info@connectkoege.dk"><img class="footerIcons" src="/assets/img/logo/mail.svg" alt="Mail ikon"></a>
         <a href="tel:30831077"><img class="footerIcons" src="/assets/img/logo/tlf.svg" alt="Telefon ikon"></a>
     </footer>
+    <script src="/kalender/kalender.js"></script>
     <script src="../script.js"></script>
 </body>
 </html>

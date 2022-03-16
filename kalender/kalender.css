@@ -1,1 +1,56 @@
 @import url("../style.css");
+
+#h1Kalender{
+    color: #013B48;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 25%;
+
+}
+
+.slideShow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calenderImage{
+    width: 70%;
+    margin: 5% 5% 0 5%;
+    object-fit: contain;
+    display: none;
+}
+.imageActive{
+    display:block;
+}
+
+.arrow{
+    font-size: 2.5rem;
+}
+
+.eventSections{
+    background-color: #05be6e68;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.eventSections h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #013B48;
+}
+
+.eventSections p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #013B48;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
