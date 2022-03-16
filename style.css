@@ -16,6 +16,8 @@ body{
     flex-direction: column;
     align-items: flex-start;
     background-color: #013B48;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 #myLinks a{
