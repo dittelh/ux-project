@@ -26,7 +26,7 @@
     flex-direction: column;
 }
 
-#linksContainer a{
+#linksContainer button{
     text-decoration: none;
     color: #013B48;
     background-color: #05BE6E;
@@ -43,4 +43,42 @@
     padding-left: 5%;
     align-items: center;
     border-radius: 20px;
+    border: none;
+}
+
+.popUp{
+    display: none;
+}
+
+.show{
+    display: block;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    background-color: #013B48;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width:60%;
+    padding: 10%;
+    border-radius: 20px;
+    
+}
+
+.popUp h3{
+    color: #05BE6E;
+    font-size: 20px;
+}
+
+.popUp h4{
+    color: #05BE6E;
+}
+
+.blur{
+    filter: blur(5px);
+}
+
+.backArrow{
+    position: absolute;
+    top: 5%;
+    right: 5%;
 }

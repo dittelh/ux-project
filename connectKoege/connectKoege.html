@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/ac984796bc.js" crossorigin="anonymous"></script></head>
 </head>
 <body>
-    <header>
+    <header class="popUpBlur">
         <div id="iconsContainer">
             <a href="/index.html"><img id="connectKoegeLogo" src="/assets/img/ConnectKoege-logo-RGB-neg.png" alt="Connect Køge"></a>
             <i onclick="openMenu()" id="menuIcon" class="fa-solid fa-bars"></i>
@@ -21,20 +21,48 @@
                 <a href="../kalender/kalender.html">Kalender</a>
             </nav>
     </header>
-    <section>
-        <h1 id="h1Section">Om Os</h1>
+    <section class="popUpBlur">
+        <h1 id="h1Section">Connect Køge</h1>
         <div id="linksContainer">
-            <a href="">Hvad er Connect Køge <img class="headerArrow" src="/assets/img/arrow.svg" alt="arrow"></a>
-            <a href="">Vores Anbefalinger <img class="headerArrow" src="/assets/img/arrow.svg" alt="arrow"></a>
+            <button onclick="popUp('connectKoege')">Hvad er Connect Køge <img class="headerArrow" src="/assets/img/arrow.svg" alt="arrow"></button>
+            <button onclick="popUp('anbefaler')">Vores Anbefalinger <img class="headerArrow" src="/assets/img/arrow.svg" alt="arrow"></button>
         </div>
         <h2 class="h2Section">Find os</h2>
         <p id="adr">Vestergade 3c, 4600 køge</p>
         <h2 class="h2Section">Vi samarbejder med</h2>
     </section>
-    <footer>
+    <section class="popUp" id="connectKoege">
+        <h3>Hvad er Connect Køge? </h3>
+        <img onclick="popUp('connectKoege')" class="backArrow" src="/assets/img/logo/back.svg" alt="tilbage pil">
+        <p>
+            Connect køge er et turist- og
+            Servicebureau. 
+            Vores kerneopgave er, at brande Køges mange seværdigheder og fremme turismen. 
+            Vi har lavet en app, hvor vi 
+            fremhæver alt det Køge står for.  
+        </p>
+    </section>
+    <section class="popUp" id="anbefaler">
+        <h3>Hvad anbefaler vi?</h3>
+        <img onclick="popUp('anbefaler')" class="backArrow" src="/assets/img/logo/back.svg" alt="tilbage pil">
+        <h4>Ditte:</h4>
+        <p>
+            Jeg elsker torvedage! Der er så mange hyggelige boder og hvis man kommer til sidst kan man få blomster til halv pris. 
+        </p>
+        <h4>Emil:</h4>
+       <p>
+            Jeg kan rigtig godt lide, at være ved havnen & marinaen. Der er så flot og hyggeligt - især om sommeren. 
+        </p>
+        <h4>Alberte:</h4>
+        <p>
+            Jeg elsker de mange caféer. Der er så mange hyggelige gårde, hvor du kan nyde en dejlig kop kaffe. 
+        </p>
+    </section>
+    <footer class="popUpBlur">
         <a href="mailto:info@connectkoege.dk"><img class="footerIcons" src="/assets/img/logo/mail.svg" alt="Mail ikon"></a>
         <a href="tel:30831077"><img class="footerIcons" src="/assets/img/logo/tlf.svg" alt="Telefon ikon"></a>
     </footer>
+    <script src="connectKoege.js"></script>
     <script src="../script.js"></script>
 </body>
 </html>
