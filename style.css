@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.hideLinks{
+display: none;
+}
+
+.myLinks{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+
+}
+
+#myLinks a{
+    text-decoration: none;
+color: black;
+}
+
+#menuIcon{
+    font-size: 2.5rem;
+    margin-right: 5%;
+}
+
+#profileIcon{
+    width: 4rem;
+}
+
+#iconsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
