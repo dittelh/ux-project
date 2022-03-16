@@ -5,5 +5,5 @@ function popUp(boxName) {
     for (let i = 0; i < blurBoxes.length; i++) {
         blurBoxes[i].classList.toggle('blur');
     }
-    popupBox.classList.toggle('show');
+    popupBox.classList.toggle('showVideo');
 }

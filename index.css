@@ -14,13 +14,60 @@ h1 {
 
 .knapText {
     position: absolute;
-    top: 45%;
+    top: 40%;
+    font-size: 45px;
 }
 
 .banner {
     margin-top: 4rem;
 }
 
+#videoSection{
+    position: relative;
+}
+
+#videoIcon{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 45%;
+}
+
 #videoBilled {
     width: 100%;
+}
+
+.koegeVideo{
+    display: none;
+}
+
+.showVideo{
+    display: block;
+    position: fixed;
+    top: 30%;
+    left: 5%;
+    background-color: #013B48;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+#video{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+.blur{
+    filter: blur(5px);
+}
+
+.backArrow{
+    position: absolute;
+    top: 2%;
+    right: 5%;  
 }
