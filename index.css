@@ -20,3 +20,7 @@ h1 {
 .banner {
     margin-top: 4rem;
 }
+
+#videoBilled {
+    width: 100%;
+}
