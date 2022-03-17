@@ -1,7 +1,7 @@
 @import url("/style.css");
 
 
-#h1Section{
+.h1Section{
   color: #013B48;
   text-align: center;
   font-size: 45px;
@@ -36,28 +36,27 @@
 
 .imgSection{
   display: flex;
-  width: 80%;
+  width: 90%;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
 }
 
 .bigImg{
-  width: 150px;
-  height: 150px;
+  width: 50%;
+  height: 50%;
   border-radius: 10px;
 }
 
 .smallImgSection{
   margin-left: 3%;
   flex-wrap: wrap;
-
 }
 
 .smallImg{
-  width: 70px;
-  height: 70px;
+  width: 45%;
+  height: 45%;
   border-radius: 10px;
   margin: 1%;
-
 }

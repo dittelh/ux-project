@@ -92,3 +92,8 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.backArrow{
+    position: fixed;
+    bottom: 12%;
+    right: 5%;
+}
