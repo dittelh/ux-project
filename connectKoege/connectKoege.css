@@ -6,13 +6,6 @@
   margin-top: 25%;
 }
 
-/* #h2Section{
-  color: #013B48;
-  text-align: center;
-  margin-top: 5%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-} */
-
 #adr{
   color: #013B48;
   text-align: center;
@@ -61,63 +54,63 @@
 }
 
 .first {
-    -webkit-animation: bannermove 8s linear infinite;
-       -moz-animation: bannermove 8s linear infinite;
-        -ms-animation: bannermove 8s linear infinite;
-        
-         -o-animation: bannermove 8s linear infinite;
-            animation: bannermove 8s linear infinite;
-   }
-    
-   @keyframes bannermove {
-    0% {
-       margin-left: 0vw;
-    }
-    100% {
-       margin-left: -750px;
-    }
-    
-   }
-    
-   @-moz-keyframes bannermove {
-    0% {
-      margin-left: 0vw;
-    }
-    100% {
-      margin-left: -750px;
-    }
-    
-   }
-    
-   @-webkit-keyframes bannermove {
-    0% {
-      margin-left: 0vw;
-    }
-    100% {
-      margin-left: -750px;
-    }
-    
-   }
-    
-   @-ms-keyframes bannermove {
-    0% {
-      margin-left: 0vw;
-    }
-    100% {
-      margin-left: -750px;
-    }
-    
-   }
-    
-   @-o-keyframes bannermove {
-    0% {
-      margin-left: 0vw;
-    }
-    100% {
-      margin-left: -750px;
-    }
-    
+  -webkit-animation: bannermove 8s linear infinite;
+      -moz-animation: bannermove 8s linear infinite;
+      -ms-animation: bannermove 8s linear infinite;
+      
+        -o-animation: bannermove 8s linear infinite;
+          animation: bannermove 8s linear infinite;
   }
+  
+  @keyframes bannermove {
+  0% {
+      margin-left: 0vw;
+  }
+  100% {
+      margin-left: -750px;
+  }
+  
+  }
+  
+  @-moz-keyframes bannermove {
+  0% {
+    margin-left: 0vw;
+  }
+  100% {
+    margin-left: -750px;
+  }
+  
+  }
+  
+  @-webkit-keyframes bannermove {
+  0% {
+    margin-left: 0vw;
+  }
+  100% {
+    margin-left: -750px;
+  }
+  
+  }
+  
+  @-ms-keyframes bannermove {
+  0% {
+    margin-left: 0vw;
+  }
+  100% {
+    margin-left: -750px;
+  }
+  
+  }
+  
+  @-o-keyframes bannermove {
+  0% {
+    margin-left: 0vw;
+  }
+  100% {
+    margin-left: -750px;
+  }
+    
+}
 
 
 .popUp{
@@ -135,7 +128,6 @@
   width:60%;
   padding: 10%;
   border-radius: 20px;
-    
 }
 
 .popUp h3{
