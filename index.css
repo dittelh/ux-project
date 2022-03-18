@@ -20,6 +20,7 @@ h1 {
 
 .banner {
     margin-top: 4rem;
+    width: 100%;
 }
 
 #videoSection{
@@ -72,3 +73,8 @@ h1 {
     top: 2%;
     right: 5%;  
 }
+
+#videoIcon{
+    fill: white;
+}
+

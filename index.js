@@ -1,3 +1,5 @@
+//Til videoen på forsiden 
+
 function popUp(boxName) {
     let popupBox = document.getElementById(boxName);
     let blurBoxes = document.getElementsByClassName('popUpBlur');
