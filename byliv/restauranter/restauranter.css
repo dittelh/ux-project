@@ -35,7 +35,7 @@
 .imgSection{
   display: flex;
   width: 90%;
-
+  height: 10rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -43,13 +43,16 @@
 
 .bigImg{
   width: 50%;
-  height: 50%;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .smallImgSection{
-  margin-left: 3%;
   flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
 .smallImg{
@@ -57,4 +60,5 @@
   height: 45%;
   border-radius: 10px;
   margin: 1%;
+  object-fit: cover;
 }
